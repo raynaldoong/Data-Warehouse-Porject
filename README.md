@@ -47,7 +47,7 @@ We have two staging tables which *copy* the JSON file inside the  **S3 buckets**
 + **time** - timestamps of records in **songplays** broken down into specific units
 
 The database schema is shown as follows:
-<img src="schema.png" alt="query2" width="800"/>
+<img src="images/schema.png" alt="query2" width="800"/>
 
 ## ETL Pipeline
 + Created tables to store the data from `S3 buckets`.
