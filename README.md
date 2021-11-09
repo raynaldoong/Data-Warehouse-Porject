@@ -46,6 +46,9 @@ We have two staging tables which *copy* the JSON file inside the  **S3 buckets**
 + **artists** - artists in music database
 + **time** - timestamps of records in **songplays** broken down into specific units
 
+The database schema is shown as follows
+![schema](./images/schema.PNG)
+
 ## ETL Pipeline
 + Created tables to store the data from `S3 buckets`.
 + Loading the data from `S3 buckets` to staging tables in the `Redshift Cluster`.
